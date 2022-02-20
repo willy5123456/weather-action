@@ -1,6 +1,7 @@
 name: 'GitHub Actions Weather Bot'
 
 on:
+  workflow_dispatch:
   push:
   schedule:
     - cron: '0 21 * * *'
